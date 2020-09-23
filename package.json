@@ -1,0 +1,19 @@
+{
+	"scripts": {
+		"client": "node client/client.js",
+		"auth-server": "node auth-server/server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.13.2",
+		"consolidate": "^0.13.1",
+		"cors": "^2.7.1",
+		"express": "^4.13.1",
+		"node-fetch": "^2.6.1",
+		"nosql": "^3.0.3",
+		"qs": "^4.0.0",
+		"randomstring": "^1.0.7",
+		"sync-request": "^2.0.1",
+		"underscore": "^1.8.3",
+		"underscore.string": "^3.1.1"
+		}
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a class="btn btn-default" href="/authorize">Get OAuth Token</a>
+    <p>access token: <span><%- access_token ? access_token : "none" %></span></p>
+    <p>token type: <%- token_type ? token_type : "no" %></p>
+    <p>scope: <%- scope ? scope : "no" %></p>
+</body>
+</html>
